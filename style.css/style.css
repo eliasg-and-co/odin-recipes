@@ -1,0 +1,59 @@
+/* Global Styles */
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #e87e81;
+    color: #efebe0; /* default font color */
+}
+
+.header {
+    font-size: 36px;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally (center) */
+    align-items: center; /* Aligns items vertically (center) */
+    height: 130vh; /* Adjust as needed to center vertically within the viewport */ 
+}
+
+.button {
+    display: block;
+    margin: auto;
+    background-color: #2e8bc0;
+    color: #efebe0;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 32px;
+    border-radius: 12px;
+    border: 2px solid #efebe0;
+}
+
+/* List Styles */
+
+.list {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2E8BC0;
+}
+
+/* Subpage Styles */
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h3, h4, h5 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
